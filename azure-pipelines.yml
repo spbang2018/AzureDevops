@@ -27,5 +27,5 @@ steps:
 - task: AzureRmWebAppDeployment@3
   inputs:
     azureSubscription: 'AzureDevopsLearning'
-    WebAppName: 'azuresiva'
+    WebAppName: 'AzureDevopsLearning'
     Package: $(System.ArtifactsDirectory)/**/*.zip
