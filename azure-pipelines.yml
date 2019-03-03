@@ -27,5 +27,5 @@ steps:
 - task: AzureRmWebAppDeployment@3
   inputs:
     azureSubscription: 'AzureDevopsLearning'
-    WebAppName: 'dotnetblr-demo'
+    WebAppName: 'AzureLearning'
     Package: $(System.ArtifactsDirectory)/**/*.zip
